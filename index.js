@@ -1,6 +1,6 @@
 import { Bot } from "grammy"
 
-const token = process.env.توکن_ربات_تلگرام
+const token = process.env.TELEGRAM_BOT_TOKEN
 
 if (!token) {
   console.error("TELEGRAM_BOT_TOKEN is missing.")
