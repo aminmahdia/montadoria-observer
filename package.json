@@ -6,6 +6,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "grammy": "^1.38.4"
+    "grammy": "^1.38.4",
+    "better-sqlite3": "^12.4.1"
   }
 }
