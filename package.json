@@ -1,12 +1,14 @@
 {
-  "name": "montadoria-bot",
-  "version": "1.0.0",
+  "name": "montadoria-observer-bot",
+  "version": "2.0.0",
   "type": "module",
+  "description": "Montadoria RP Observer Bot",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "grammy": "^1.38.4",
-    "better-sqlite3": "^12.4.1"
+    "better-sqlite3": "^11.8.1",
+    "grammy": "^1.35.0"
   }
 }
